@@ -6,11 +6,11 @@ ventas = {
     }
 
     def filter (hash)
-        a = []
+        a = {}
 
         hash.each do |k, v|
             if v < 70000 
-                a.push v
+                a.store k, v
             end
         end 
 
