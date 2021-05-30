@@ -1,0 +1,1 @@
+Desafios opcionales correspondiente al capitulo de hashes.
